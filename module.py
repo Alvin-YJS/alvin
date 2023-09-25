@@ -100,8 +100,8 @@ import os
 print(mu.get_curdir())
 
 pname = "python"
-mu.os_mkdir(pname)
-print(os.listdir())
+mu.os_mkdir("python")
+print(os.listdir(pname))
 
 os.rmdir(pname)
 print(os.listdir())
