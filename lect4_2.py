@@ -58,10 +58,10 @@ def ploop(n):
         print("end")
         return 1
     else:
-        print(n, n-1, " * ", n + n-1)
+        print(n, n-1, " = ", n + n-1)
         return n * ploop(n-1)
     
-print(ploop(5))
+print(ploop(3))
 """
 
 # fibonacci 수열
