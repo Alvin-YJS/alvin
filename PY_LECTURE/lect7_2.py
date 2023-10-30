@@ -59,7 +59,7 @@ class champion:
             
     def setMovSpd(self):
         print("set Mov Spd")
-        self.movSpd = (20 + self.speed)*(1.09)*(100)
+        self.movSpd = (20 + self.speed)*(1.00)*(100)
         
     def printStatus(self):
         print("champion: %s, hp: %f, lv: %d, movSpd:%f, atkSpd: %f"%(self.champian,self.hp,self.lv,self.atkSpd, self.atkSpd))
