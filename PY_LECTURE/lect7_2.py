@@ -34,9 +34,9 @@ class champion:
     basicMovSpd = 325
     atkSpd = 0.658
     
-    def __init__(self, champian, speed):
+    def __init__(self, champion, speed):
         self.hp = 100
-        self.champian = champian
+        self.champion = champion
         self.lv = 1
         self.setSpeed(speed)
         self.setAtkSpd()
@@ -62,7 +62,7 @@ class champion:
         self.movSpd = (20 + self.speed)*(1.00)*(100)
         
     def printStatus(self):
-        print("champion: %s, hp: %f, lv: %d, movSpd:%f, atkSpd: %f"%(self.champian,self.hp,self.lv,self.atkSpd, self.atkSpd))
+        print("champion: %s, hp: %f, lv: %d, movSpd:%f, atkSpd: %f"%(self.champion,self.hp,self.lv,self.atkSpd, self.atkSpd))
 
 ashe = champion("ashe",140)
 mipo = champion("mipo",220)
