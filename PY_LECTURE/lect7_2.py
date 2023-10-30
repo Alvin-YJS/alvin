@@ -64,7 +64,7 @@ class champion:
     def printStatus(self):
         print("champion: %s, hp: %f, lv: %d, movSpd:%f, atkSpd: %f"%(self.champian,self.hp,self.lv,self.atkSpd, self.atkSpd))
 
-ashe = champion("ash",140)
+ashe = champion("ashe",140)
 mipo = champion("mipo",220)
 
 ashe.printStatus()
